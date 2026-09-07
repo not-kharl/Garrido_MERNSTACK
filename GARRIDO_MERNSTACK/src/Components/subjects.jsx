@@ -2,8 +2,8 @@ import React from "react";
 
 export const subjects = [
   {
-    schedCode: "CS101-A",
-    subjectName: "Introduction to Programming",
+    schedCode: "DCIT90",
+    subjectName: "Introduction to Human-Computer Interaction",
     schedule: {
       days: "Mon / Wed",
       time: "8:00 AM - 9:30 AM",
@@ -12,22 +12,22 @@ export const subjects = [
     },
   },
   {
-    schedCode: "CS102-A",
-    subjectName: "Object-Oriented Programming",
+    schedCode: "INSY55",
+    subjectName: "System Analysis and Design",
     schedule: {
       days: "Tue / Thu",
       time: "9:30 AM - 11:00 AM",
-      room: "Room 302",
+      room: "Room 202",
       instructor: "Prof. Santos",
     },
   },
   {
-    schedCode: "CS201-A",
-    subjectName: "Data Structures and Algorithms",
+    schedCode: "DCIT26",
+    subjectName: "Application Development and Emerging Technologies",
     schedule: {
       days: "Mon / Wed / Fri",
-      time: "1:00 PM - 2:00 PM",
-      room: "Room 405",
+      time: "1:00 PM - 3:00 PM",
+      room: "Room 408",
       instructor: "Prof. Dela Cruz",
     },
   },
@@ -35,7 +35,7 @@ export const subjects = [
  
 export default function SubjectsList() {
   return (
-    <div style={{ fontFamily: "sans-serif", padding: "1rem" }}>
+    <div style={{ fontFamily: "Arial", padding: "1rem" }}>
       <h2>Class Schedule</h2>
       <table style={{ borderCollapse: "collapse", width: "100%" }}>
         <thead>
