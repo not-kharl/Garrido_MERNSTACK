@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Juan Dela Cruz",
+    "studentNumber": "2023-00123",
+    "course": "BSIT",
+    "yearSection": "3rd Year - A",
+    "email": "juan.delacruz@cvsu.edu.ph"
+  },
+  {
+    "id": 2,
+    "name": "Maria Santos",
+    "studentNumber": "2023-00456",
+    "course": "BSIT",
+    "yearSection": "3rd Year - B",
+    "email": "maria.santos@cvsu.edu.ph"
+  },
+  {
+    "id": 3,
+    "name": "Pedro Reyes",
+    "studentNumber": "2023-00789",
+    "course": "BSCS",
+    "yearSection": "3rd Year - A",
+    "email": "pedro.reyes@cvsu.edu.ph"
+  }
+]
